@@ -1,0 +1,23 @@
+{
+  "name": "docker-test-project",
+  "version": "1.0.0",
+  "description": "just for testing purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DzmitryKukharuk/docker-test-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DzmitryKukharuk/docker-test-project/issues"
+  },
+  "homepage": "https://github.com/DzmitryKukharuk/docker-test-project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
