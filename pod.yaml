@@ -12,5 +12,6 @@ spec:
       containers:
         - name: test-docker
           image: test-docker # image we pushed
+          imagePullPolicy: Never
           ports:
             - containerPort: 8000
